@@ -17,7 +17,7 @@ It is currently configured as a robotic pen plotter, capable of executing comple
 * Custom 3D Printed Parts (Base, Links, Joints, and End-effector)
 * Stepper Motors (NEMA 17)
 * Linear Motion: Smooth rods, linear bearings, and a leadscrew
-* Control Board: [Insert your controller here, e.g., Arduino Mega + RAMPS 1.4 / CNC Shield]
+* Control Board: Arduino UNO, CNC Shield V3
 * End-Effector: Custom pen holder with spring mechanism (for uniform writing pressure)
 
 ## 🎨 Demonstration
@@ -28,10 +28,8 @@ Here is a writing sample demonstrating the accuracy and repeatability of the SCA
 ![Writing Sample](text.jpg)
 
 ## 🚀 Setup & Usage
-1. **Mechanical Assembly:** Print the STL files provided in the `[3D_Models]` folder and assemble the mechanical parts using M3/M4 screws and linear rods.
 2. **Electronics:** Connect the stepper motors and endstops to the control board following the wiring diagram.
 3. **Firmware:** Flash the provided firmware (or standard CNC firmware like Marlin/Grbl tailored for SCARA kinematics) to the microcontroller.
-4. **Software:** Use a G-code sender software to stream plotting coordinates to the robot.
 
 ## 🔮 Future Improvements
 * Design an interchangeable toolhead (e.g., suction cup, mechanical gripper).
