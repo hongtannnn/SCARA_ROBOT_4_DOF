@@ -28,8 +28,8 @@ Here is a writing sample demonstrating the accuracy and repeatability of the SCA
 ![Writing Sample](text.jpg)
 
 ## 🚀 Setup & Usage
-2. **Electronics:** Connect the stepper motors and endstops to the control board following the wiring diagram.
-3. **Firmware:** Flash the provided firmware (or standard CNC firmware like Marlin/Grbl tailored for SCARA kinematics) to the microcontroller.
+1. **Electronics:** Connect the stepper motors and endstops to the control board following the wiring diagram.
+2. **Firmware:** Flash the provided firmware (or standard CNC firmware like Marlin/Grbl tailored for SCARA kinematics) to the microcontroller.
 
 ## 🔮 Future Improvements
 * Design an interchangeable toolhead (e.g., suction cup, mechanical gripper).
