@@ -34,4 +34,3 @@ Here is a writing sample demonstrating the accuracy and repeatability of the SCA
 ## 🔮 Future Improvements
 * Design an interchangeable toolhead (e.g., suction cup, mechanical gripper).
 * Optimize the inverse kinematics algorithm for faster and smoother curves.
-* Develop a custom GUI or web interface for real-time control.
